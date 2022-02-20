@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+
+	"github.com/sirupsen/logrus"
+)
+
+func main() {
+	logger := logrus.New()
+	logger.Info("Using `logrus`, waiting for user input:")
+	var input string
+	_, err := fmt.Scanln(&input)
+	if err != nil {
+		logger.Fatal(err)
+	}
+	logger.Info("Read:", input)
+}

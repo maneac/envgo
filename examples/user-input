@@ -1,0 +1,17 @@
+#!/usr/bin/env envgo
+package main
+
+import (
+	"fmt"
+	"log"
+)
+
+func main() {
+	log.Println("Waiting for user input:")
+	var input string
+	_, err := fmt.Scanln(&input)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Println("Read:", input)
+}

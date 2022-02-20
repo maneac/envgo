@@ -1,6 +1,7 @@
 # Envgo
 
 [![License: MIT](https://img.shields.io/github/license/maneac/envgo)](https://opensource.org/licenses/MIT)
+[![Go workflow](https://github.com/maneac/envgo/actions/workflows/golang.yml/badge.svg)](https://github.com/maneac/envgo/actions/workflows/golang.yml)
 [![Go version](https://img.shields.io/github/go-mod/go-version/maneac/envgo)](https://go.dev)
 [![Latest release](https://img.shields.io/github/v/release/maneac/envgo)](https://github.com/maneac/envgo/releases/latest)
 

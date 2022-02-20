@@ -1,0 +1,8 @@
+#!/usr/bin/env -S envgo -v
+package main
+
+import "log"
+
+func main() {
+	log.Println("verbose standalone script")
+}

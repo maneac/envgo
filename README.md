@@ -1,5 +1,9 @@
 # Envgo
 
+[![License: MIT](https://img.shields.io/github/license/maneac/envgo)](https://opensource.org/licenses/MIT)
+[![Go version](https://img.shields.io/github/go-mod/go-version/maneac/envgo)](https://go.dev)
+[![Latest release](https://img.shields.io/github/v/release/maneac/envgo)](https://github.com/maneac/envgo/releases/latest)
+
 Small utility to allow Go code to be executed in a shell-like fashion. Designed to emulate the scripting functionality offered
 by Python and Ruby.
 
